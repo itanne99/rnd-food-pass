@@ -8,7 +8,7 @@ export default function Home() {
   const [data, setData] = useState(null)
 
   const getPass = () =>{
-    fetch('/api/Pass-Gen').then((res) => res.json())
+    fetch(process.cwd()+'api/Pass-Gen').then((res) => res.json())
     .then((data) => {
       setData(data)
     })
