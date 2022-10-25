@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: '',
-  }
+  },
+  basePath: '/rnd-food-pass',
+  assetPrefix: '/rnd-food-pass'
 }
 
 module.exports = nextConfig
